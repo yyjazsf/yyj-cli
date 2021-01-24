@@ -1,0 +1,53 @@
+{
+  "name": "yyj-cli",
+  "version": "1.0.0",
+  "description": "a FE cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "log": "lerna-changelog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyjazsf/yyj-cli.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "yingyujia",
+    "email": "admin@yingyj.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyjazsf/yyj-cli/issues"
+  },
+  "homepage": "https://github.com/yyjazsf/yyj-cli#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "node scripts/verifyCommitMsg.js"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --fix",
+    "packages/**/bin/*": "eslint --fix"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "chalk": "^4.1.0",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.8",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "lint-staged": "^10.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

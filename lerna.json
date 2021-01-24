@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {},
+  "packages": [
+    "packages/*"
+  ],
+  "changelog": {
+    "repo": "yyjazsf/yyj-cli",
+    "labels": {},
+    "cacheDir": ".changelog",
+    "ignoreCommitters": []
+  }
+}
