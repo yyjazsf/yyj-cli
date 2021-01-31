@@ -1,0 +1,33 @@
+{
+  "name": "@yyj/template-typescript",
+  "version": "0.0.1",
+  "description": "ts 项目基础模板",
+  "keywords": [
+    "template",
+    "typescript"
+  ],
+  "author": "yyjazsf <admin@yingyj.com>",
+  "homepage": "https://github.com/yyjazsf/yyj-cli/tree/master/packages/template-typescript#readme",
+  "license": "MIT",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyjazsf/yyj-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yyjazsf/yyj-cli/issues"
+  },
+  "dependencies": {
+    "@yyj/cli-shared-utils": "^0.0.1"
+  }
+}

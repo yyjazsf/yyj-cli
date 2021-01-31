@@ -1,0 +1,30 @@
+{
+  "name": "@yyj/cli-shared-utils",
+  "version": "0.0.1",
+  "description": "utils for @yyj/cli",
+  "keywords": [
+    "utils",
+    "yyj-cli"
+  ],
+  "author": "yyjazsf <admin@yingyj.com>",
+  "homepage": "https://github.com/yyjazsf/yyj-cli/tree/master/packages/cli-shared-utils#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyjazsf/yyj-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yyjazsf/yyj-cli/issues"
+  }
+}

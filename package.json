@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "a FE cli",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "log": "lerna-changelog"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yyjazsf/yyj-cli.git"
